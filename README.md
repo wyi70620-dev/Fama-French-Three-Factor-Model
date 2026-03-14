@@ -19,12 +19,12 @@ The goal is to model stock excess returns and explore practical extensions throu
 
 ## Repository Structure
 
-- `Python代码示例/` - main Python scripts for data loading, preprocessing, analysis, modeling, and visualization.
-- `备用代码/` - alternative implementations and backup versions.
-- `数据/` - sample datasets and prediction outputs.
-- `研究+方案/` - research notes, design plans, and supporting documents.
+- `python_examples/` - main Python scripts for data loading, preprocessing, analysis, modeling, and visualization.
+- `backup_code/` - alternative implementations and backup versions.
+- `data/` - sample datasets and prediction outputs.
+- `research_notes/` - research notes, design plans, and supporting documents.
 
-> Note: Some folder and file names are in Chinese. The code and workflow are still straightforward to run by following the script order below.
+> Note: Some script filenames are still in Chinese.
 
 ## Quick Start
 
@@ -34,7 +34,7 @@ The goal is to model stock excess returns and explore practical extensions throu
    - `numpy`
    - `statsmodels`
    - `matplotlib`
-3. Run scripts in `Python代码示例/` in this order:
+3. Run scripts in `python_examples/` in this order:
    - `数据读取与预处理.py` (data loading and preprocessing)
    - `数据特征分析.py` (feature analysis)
    - `时变方案.py` / `损失函数方案.py` / `GAM方案.py` (model variants)
